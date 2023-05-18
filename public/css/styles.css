@@ -1,0 +1,175 @@
+
+
+.navbar-styles{
+  height: 80px;
+    background: conic-gradient(from 135deg at 25% 200%,#1a32a8, #004AAD);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+    
+
+.nav-link {
+    color: rgb(235, 233, 233) !important;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid transparent;
+}
+
+.navbar-brand .logo-container {
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: rgba(249, 187, 94, 1);
+    padding: 10px;
+    top: 20px;
+    position: absolute;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-brand .logo-container img {
+    background-color: white !important;
+    padding: 5px;
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    transition: all 0.3s ease;
+  }
+
+
+  @media (max-width: 1850px) {
+    .navbar-brand .logo-container {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background-color: rgba(249, 187, 94, 1);
+      padding: 5px;
+      position: absolute;
+      top: 5px;
+      transition: all 0.3s ease;
+    }
+  
+    .navbar-brand .logo-container img {
+      background-color: white !important;
+      padding: 5px;
+      border-radius: 50%;
+      max-width: 100%;
+      max-height: 100%;
+      transition: all 0.3s ease;
+    }
+  }
+
+@media screen and (min-width: 992px) {
+    .nav-link:hover {
+        color: #f9fef8;
+        border-bottom: 3px solid #ffffff;
+        border-top: 3px solid #ffffff;
+        border-radius: 25px 25px 25px 25px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .nav-link:not(:hover) {
+        border-radius: 25px 25px 25px 25px;
+    }
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #19452e;
+}
+
+footer{
+    border-top : solid 2px rgb(223, 223, 223)
+}
+
+.icon-size{
+    font-size: 50px;
+    color: #CD9A4D;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 900px){
+  .icon-size{
+    font-size: 35px;
+    color: #CD9A4D;
+    transition: all 0.3s ease;
+}
+}
+
+.icon-font-color{
+    color: #CD9A4D;
+}
+
+img {
+    max-height: 730px !important;
+  }
+
+
+  .carousel{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  #carouselExampleIndicators {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 125px;
+}
+
+#carouselExampleIndicators .carousel-inner {
+    width: 100%;
+}
+
+#carouselExampleIndicators .carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#carouselExampleIndicators .carousel-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+  .add-shadow{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .add-shadow-2{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .circle {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(202, 200, 200);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.table-borderless td,
+.table-borderless th {
+  border-left: 1px solid #dee2e6; /* Dodaj pionowe obramowanie */
+}
+
+.table-borderless thead th:first-child,
+.table-borderless tbody td:first-child {
+  border-left: none; /* Usuń obramowanie pionowe dla pierwszej kolumny */
+}
+
+.custom-table thead th {
+  border-bottom: 1px solid #dee2e6; /* Dodaj poziome obramowanie dla nagłówków kolumn */
+}
+
+.custom-table tbody tr:first-child td {
+  border-top: 1px solid #dee2e6; /* Dodaj poziome obramowanie dla pierwszego wiersza */
+}
+
+.bg-lightgray{
+  background-color: #ebebeb !important;
+}
+
+
+
+
