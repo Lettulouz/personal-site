@@ -1,62 +1,18 @@
-
+body {
+  min-height: 100vh; 
+}
 
 .navbar-styles{
-  height: 80px;
-    background: conic-gradient(from 135deg at 25% 200%,#1a32a8, #004AAD);
+    height: 80px;
+    background: #bdbdbd;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
-
-    
-
 .nav-link {
-    color: rgb(235, 233, 233) !important;
+    color: rgb(255, 255, 255) !important;
     border-bottom: 3px solid transparent;
     border-top: 3px solid transparent;
 }
-
-.navbar-brand .logo-container {
-    width:250px;
-    height: 250px;
-    border-radius: 50%;
-    background-color: rgba(249, 187, 94, 1);
-    padding: 10px;
-    top: 20px;
-    position: absolute;
-    transition: all 0.3s ease;
-  }
-  
-  .navbar-brand .logo-container img {
-    background-color: white !important;
-    padding: 5px;
-    border-radius: 50%;
-    max-width: 100%;
-    max-height: 100%;
-    transition: all 0.3s ease;
-  }
-
-
-  @media (max-width: 1850px) {
-    .navbar-brand .logo-container {
-      width: 70px;
-      height: 70px;
-      border-radius: 50%;
-      background-color: rgba(249, 187, 94, 1);
-      padding: 5px;
-      position: absolute;
-      top: 5px;
-      transition: all 0.3s ease;
-    }
-  
-    .navbar-brand .logo-container img {
-      background-color: white !important;
-      padding: 5px;
-      border-radius: 50%;
-      max-width: 100%;
-      max-height: 100%;
-      transition: all 0.3s ease;
-    }
-  }
 
 @media screen and (min-width: 992px) {
     .nav-link:hover {
@@ -81,73 +37,6 @@ footer{
     border-top : solid 2px rgb(223, 223, 223)
 }
 
-.icon-size{
-    font-size: 50px;
-    color: #CD9A4D;
-    transition: all 0.3s ease;
-}
-
-@media (max-width: 900px){
-  .icon-size{
-    font-size: 35px;
-    color: #CD9A4D;
-    transition: all 0.3s ease;
-}
-}
-
-.icon-font-color{
-    color: #CD9A4D;
-}
-
-img {
-    max-height: 730px !important;
-  }
-
-
-  .carousel{
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-  }
-
-  #carouselExampleIndicators {
-    width: 100%;
-    overflow: hidden;
-    margin-top: 125px;
-}
-
-#carouselExampleIndicators .carousel-inner {
-    width: 100%;
-}
-
-#carouselExampleIndicators .carousel-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
-#carouselExampleIndicators .carousel-item img {
-    max-width: 100%;
-    height: auto;
-}
-
-  .add-shadow{
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-  }
-
-  .add-shadow-2{
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-  }
-
-  .circle {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(202, 200, 200);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
 .table-borderless td,
 .table-borderless th {
   border-left: 1px solid #dee2e6; /* Dodaj pionowe obramowanie */
@@ -170,6 +59,99 @@ img {
   background-color: #ebebeb !important;
 }
 
+.card-header{
+  font-size: 25px !important;
+  font-weight: bold;
+  background-color: #a7a7a7 !important;
+  cursor: pointer !important;
+}
 
+.card-body{
+  font-size: 18px !important;
+  background-color: #eeeeee !important;
+  border-radius: 5px;
+  color: black !important;
+}
 
+.circle-background-universal{
+  min-width: 25px;
+  min-height: 25px;
+  max-width: 25px;
+  max-height: 25px;
+  border-radius: 50%;
+  border: 2px solid black
+}
 
+.circle-background0 {
+  background-color: transparent;
+}
+
+.circle-background1 {
+  background-color: rgb(179, 39, 39);
+}
+
+.circle-background2 {
+  background-color: rgb(248, 179, 30);
+}
+
+.circle-background3 {
+  background-color: rgb(231, 219, 40);
+}
+
+.circle-background4 {
+  background-color: rgb(8, 150, 8);
+}
+
+.circle-background5 {
+  background-color: rgb(10, 212, 196);
+}
+
+.circle-text {
+  font-size: 25px;
+}
+
+.icons-size{
+  font-size: 25px;
+}
+
+.arrow {
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  transform: rotate(45deg);
+  transition: transform 0.2s ease-in-out;
+}
+
+.arrow:hover,
+.arrow.hover {
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  transform: rotate(45deg) scale(1.5);
+  transition: transform 0.2s ease-in-out;
+}
+
+.arrow.reverse {
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  transform: rotate(135deg);
+  transition: transform 0.2s ease-in-out;
+}
+
+.reverse:hover,
+.reverse.hover {
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  transform: rotate(135deg) scale(1.5);
+  transition: transform 0.2s ease-in-out;
+}
+
+.add-shadow{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
