@@ -1,5 +1,6 @@
 body {
   min-height: 100vh; 
+  background-color: #fcfcfc;
 }
 
 .navbar-styles{
@@ -154,4 +155,10 @@ footer{
 
 .add-shadow{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.long-text{
+  text-align: justify; 
+  margin: 0;
+  text-indent: 2rem;
 }
