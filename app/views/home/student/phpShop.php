@@ -61,6 +61,8 @@
             Administrator może w nie odnaleźć treść dotyczącą poprawnego skonfigurowania strony, tak aby poprawnie działała po stronie użytkowników. 
             Co więcej w treści dokumentacji można znaleźć informacje o zastosowanych bibliotekach zewnętrznych.
         </p>
+
+        <?php include "slider_phpShop.php"; ?> 
     </div>
 </div>
 
