@@ -19,7 +19,7 @@
     
     <hr class="divider mt-5 mb-5">
 
-    <div class="card text-white bg-secondary" id="mainCardBuisness">
+    <div class="card text-white bg-secondary add-shadow rounded" id="mainCardBuisness">
         <div class="card-header headers-color">
             <div class="d-flex align-items-center justify-content-between">
                 <h2 class="card-title my-2">Projekty komercyjne</h2>
