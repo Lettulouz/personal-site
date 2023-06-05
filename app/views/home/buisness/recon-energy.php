@@ -14,8 +14,8 @@
         </div>
     </div>
     <div class="card-body text-black" style="display:none;">
-        <h4 class="card-title">Technologie: PHP, JS, CSS</h4>
-        <h3 class="card-title mt-4">Aplikacja w trakcie rozwoju</h3>
+        <h4 class="card-title">Technologie: PHP, CSS</h4>
+        <h4 class="card-title mt-4">Strona: <a href="https://www.reconenergy.pl" class="text-muted text-decoration-none"><i class="bi bi-globe"></i> Link</a></h4>
         <h4 class="card-title mt-4 mb-4">Cel projektu:</h4>
         <p class="long-text">Celem projektu było stworzenie aplikacji służącej jako wizytówka firmy.
         </p>
